@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:black ;
+    color: white;
+    width: 90%;
+    margin: 5px auto;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*Manda abajo el siguiente contenido una vez no haya espacio  */
+    justify-content: center;
+    /* Justiifica el contenido al centro */
+}
+.logotipo{
+    width: 15%;
+}
+.menu{
+    width: 45%;
+}
+.botones{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedor .menu ul li{
+    display: inline-flex;
+    padding-right:15px ;
+    font-size: 1.2em;
+} 
+.contenedor .menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+.cajas{
+    background-color: tomato;
+    height: 35px;
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.item{
+    width: 33%;
+    padding: 10px;
+    text-align: justify;
+}
+h2{
+    color: tomato;
+}
+.producto{
+    width: 33%;
+    margin: 2px;
+    padding: 5px;
+}
+.item2{
+    width: 35%;
+    text-align: justify;
+    border-right: 1px soli silver;
+    margin: 2px;
+    padding: 5px;
+}
+@media(max-width:600px){
+    .contenedor{
+        display: flex;
+        flex-direction:column ;
+
+    }
+    .cabecera{
+        background: url('../imagenes/imagen\ 1.png');
+        background-size: auto;
+        font-size: 1em;
+    }
+    .cabecera, .item, .producto, .tem2, .video{
+        width: 100%;
+    }
+}

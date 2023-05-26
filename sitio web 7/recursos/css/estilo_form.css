@@ -1,0 +1,41 @@
+
+.formS{
+    width: 50%;
+    margin: 3% auto;
+    text-align: center;
+    background-color: #b2a796;
+    border:1px solid silver ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.formS label{
+    font-size: 1.5em;
+}
+#enviar{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: bisque;
+    font-size: 1.4em;
+}
+#correo, #nombre{
+    width: 250px;
+    height: 30px;
+    border-radius:5px ;
+    font-size: 1.4em;
+}
+#correo:hover, #nombre:hover{
+    border: 1px solid red;
+}
+#enviar:hover{
+    background-color: aliceblue;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+#hr{
+    width: 50%;
+    margin: auto;
+}

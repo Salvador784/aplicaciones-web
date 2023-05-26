@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+}
+
+.contenedor{
+    display: flex;
+    /* flex-direction: column; Forma Horizontal */
+    /* flex-direction: row; Lo pega */
+}
+
+.contenedor nav ul li{
+    display: inline;
+    padding-right: 25px;
+}
+
+.contenedor nav a{
+    text-decoration: none;
+}
+
+.contenedor nav a:hover{
+    color: rgb(78, 133, 133);
+}
+
+.contenedor .cabecera{
+    padding-top: 100px;
+    min-height: 450px;
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(186, 194, 212);
+    font-size: 1.5em;
+} 
+
+.izq, .derecho, .main{
+    border-bottom: 1px silver solid;
+    margin: 2px;
+}
+
+p{
+    margin: 5px;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Debemos aplicar una regla para que el contenido del dispositivo  (media query) */
+
+@media (max-width: 600px){
+    
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}

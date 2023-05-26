@@ -1,0 +1,17 @@
+.nav{
+    max-width: 100%;
+    background-color: rgb(42, 122, 122);
+    font-size: 1.5em;
+    text-align: end;
+}
+.nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor nav ul li a:hover{
+    color: rgb(189, 183, 192);
+}

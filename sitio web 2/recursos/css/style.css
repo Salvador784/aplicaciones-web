@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2em;
+    background-image: url("../imagenes/fondo.jpg");
+    /* Para no repetir la imágen */
+    background-repeat: no-repeat;
+    /* Cubre todo */
+    background-size: cover;
+    /* background-image: linear-gradient(to left, white, violet );*/
+}
+
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+    background-size: 400px 400px;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:rgb(183, 149, 213);
+    border:none;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    }
+    nav li:hover{
+    background-color:rgb(233, 187, 228);
+    color:#000;
+    transition: 1.01s;
+    } 
+    nav li a:hover{
+        text-decoration: underline;
+        
+    }
+
+    article{
+        margin-top: 10px;
+        border: 1px solid rgba(185, 13, 204, 0.85);
+        border-radius: 10px;
+    }
+    
+    p{
+        padding: 5px 50px;
+    }
+
+p.segundo{
+    font-family: Arial, Helvetica, sans-serif;
+}

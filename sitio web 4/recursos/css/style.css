@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+body{
+    font-family: 'Mukta', sans-serif;   
+    font-size: 2em;
+}
+.contenedor{
+    width: 50%;
+    margin: 3px auto;
+}
+nav{
+    background-color: rgba(117, 238, 238, 0.685);
+    color: rgb(209, 142, 142);
+    
+}
+nav ul{
+    padding: 0px;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    
+}
+nav a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+    font-size: .9em;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: brown;
+    color: aliceblue;
+}
+header{
+    background-image: url("../imagenes/fondo.jpeg");
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+#izquierdo{
+    float: left;
+    width: 25%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+#principal{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+#derecho{
+    float: left;
+    width: 25%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+#pie{
+    clear: both;
+    text-align: center;
+}
